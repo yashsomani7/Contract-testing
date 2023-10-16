@@ -1,0 +1,296 @@
+2023-10-04 08:02:01.014  WARN 20152 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9h30m28s123ms727µs500ns).
+2023-10-04 09:44:50.378  WARN 20152 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h42m54s789ms119µs700ns).
+2023-10-04 11:52:52.980  INFO 19292 --- [main] c.r.Courses.PactProviderTest             : Starting PactProviderTest using Java 1.8.0_381 on W118HJ5LL3 with PID 19292 (started by Yash_Somani in C:\Users\Yash_Somani\OneDrive - Dell Technologies\Documents\pact testing\Code Projects\Courses)
+2023-10-04 11:52:52.983  INFO 19292 --- [main] c.r.Courses.PactProviderTest             : No active profile set, falling back to default profiles: default
+2023-10-04 11:52:54.115  INFO 19292 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-04 11:52:54.190  INFO 19292 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 62 ms. Found 1 JPA repository interfaces.
+2023-10-04 11:52:55.457  INFO 19292 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-10-04 11:52:55.479  INFO 19292 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-04 11:52:55.480  INFO 19292 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2023-10-04 11:52:55.823  INFO 19292 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-04 11:52:55.824  INFO 19292 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2429 ms
+2023-10-04 11:52:56.417  INFO 19292 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-04 11:52:56.580  INFO 19292 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.1.Final
+2023-10-04 11:52:57.019  INFO 19292 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-10-04 11:52:57.216  INFO 19292 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-04 11:52:57.220  WARN 19292 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2023-10-04 11:52:57.984  INFO 19292 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-04 11:52:58.016  INFO 19292 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2023-10-04 11:52:58.957  INFO 19292 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-04 11:52:58.974  INFO 19292 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-04 11:52:59.555  WARN 19292 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-04 11:53:00.996  INFO 19292 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 57433 (http) with context path ''
+2023-10-04 11:53:01.008  INFO 19292 --- [main] c.r.Courses.PactProviderTest             : Started PactProviderTest in 8.456 seconds (JVM running for 12.046)
+2023-10-04 11:53:01.542  INFO 19292 --- [main] p.j.PactVerificationStateChangeExtension : Invoking state change method 'Course Appium does not exist':SETUP
+2023-10-04 11:53:01.949  WARN 19292 --- [Thread-2] au.com.dius.pact.core.support.Metrics    : 
+            Please note: we are tracking events anonymously to gather important usage statistics like JVM version
+            and operating system. To disable tracking, set the 'pact_do_not_track' system property or environment
+            variable to 'true'.
+            
+2023-10-04 11:53:02.159  INFO 19292 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-04 11:53:02.160  INFO 19292 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-04 11:53:02.161  INFO 19292 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-10-04 11:53:02.478  WARN 19292 --- [main] a.c.d.p.p.DefaultTestResultAccumulator   : Not all of the 3 were verified. The following were missing:
+2023-10-04 11:53:02.479  WARN 19292 --- [main] a.c.d.p.p.DefaultTestResultAccumulator   :     Get the Appium course details
+2023-10-04 11:53:02.479  WARN 19292 --- [main] a.c.d.p.p.DefaultTestResultAccumulator   :     getting all courses details
+2023-10-04 11:53:02.481  INFO 19292 --- [main] p.j.PactVerificationStateChangeExtension : Invoking state change method 'Course Appium does not exist':TEARDOWN
+2023-10-04 11:53:02.569  INFO 19292 --- [main] p.j.PactVerificationStateChangeExtension : Invoking state change method 'Course Appium exist':SETUP
+2023-10-04 11:53:02.685  WARN 19292 --- [main] a.c.d.p.p.DefaultTestResultAccumulator   : Not all of the 3 were verified. The following were missing:
+2023-10-04 11:53:02.686  WARN 19292 --- [main] a.c.d.p.p.DefaultTestResultAccumulator   :     getting all courses details
+2023-10-04 11:53:02.687  INFO 19292 --- [main] p.j.PactVerificationStateChangeExtension : Invoking state change method 'Course Appium exist':TEARDOWN
+2023-10-04 11:53:02.703  INFO 19292 --- [main] p.j.PactVerificationStateChangeExtension : Invoking state change method 'courses exist':SETUP
+2023-10-04 11:53:02.743  WARN 19292 --- [main] a.c.d.p.p.DefaultTestResultAccumulator   : Skipping publishing of verification results as it has been disabled (pact.verifier.publishResults is not 'true')
+2023-10-04 11:53:02.744  INFO 19292 --- [main] p.j.PactVerificationStateChangeExtension : Invoking state change method 'courses exist':TEARDOWN
+2023-10-04 11:53:03.092  INFO 19292 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-04 11:53:03.097  INFO 19292 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-04 11:53:03.111  INFO 19292 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-10-04 12:41:40.672  WARN 20152 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m47s350ms958µs100ns).
+2023-10-04 12:42:40.341  INFO 7620 --- [main] c.r.Courses.PactProviderTest             : Starting PactProviderTest using Java 1.8.0_381 on W118HJ5LL3 with PID 7620 (started by Yash_Somani in C:\Users\Yash_Somani\OneDrive - Dell Technologies\Documents\pact testing\Code Projects\Courses)
+2023-10-04 12:42:40.345  INFO 7620 --- [main] c.r.Courses.PactProviderTest             : No active profile set, falling back to default profiles: default
+2023-10-04 12:42:41.224  INFO 7620 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-04 12:42:41.306  INFO 7620 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 69 ms. Found 1 JPA repository interfaces.
+2023-10-04 12:42:42.360  INFO 7620 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-10-04 12:42:42.374  INFO 7620 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-04 12:42:42.375  INFO 7620 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2023-10-04 12:42:42.588  INFO 7620 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-04 12:42:42.589  INFO 7620 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1984 ms
+2023-10-04 12:42:42.932  INFO 7620 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-04 12:42:43.055  INFO 7620 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.1.Final
+2023-10-04 12:42:43.379  INFO 7620 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-10-04 12:42:43.554  INFO 7620 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-04 12:42:43.559  WARN 7620 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2023-10-04 12:42:44.426  INFO 7620 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-04 12:42:44.458  INFO 7620 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2023-10-04 12:42:45.283  INFO 7620 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-04 12:42:45.292  INFO 7620 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-04 12:42:45.626  WARN 7620 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-04 12:42:46.448  INFO 7620 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 49696 (http) with context path ''
+2023-10-04 12:42:46.456  INFO 7620 --- [main] c.r.Courses.PactProviderTest             : Started PactProviderTest in 6.519 seconds (JVM running for 8.81)
+2023-10-04 12:42:46.762  INFO 7620 --- [main] p.j.PactVerificationStateChangeExtension : Invoking state change method 'Course Appium does not exist':SETUP
+2023-10-04 12:42:47.011  WARN 7620 --- [Thread-2] au.com.dius.pact.core.support.Metrics    : 
+            Please note: we are tracking events anonymously to gather important usage statistics like JVM version
+            and operating system. To disable tracking, set the 'pact_do_not_track' system property or environment
+            variable to 'true'.
+            
+2023-10-04 12:42:47.100  INFO 7620 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-04 12:42:47.101  INFO 7620 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-04 12:42:47.102  INFO 7620 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-10-04 12:42:47.267  WARN 7620 --- [main] a.c.d.p.p.DefaultTestResultAccumulator   : Not all of the 3 were verified. The following were missing:
+2023-10-04 12:42:47.268  WARN 7620 --- [main] a.c.d.p.p.DefaultTestResultAccumulator   :     Get the Appium course details
+2023-10-04 12:42:47.269  WARN 7620 --- [main] a.c.d.p.p.DefaultTestResultAccumulator   :     getting all courses details
+2023-10-04 12:42:47.271  INFO 7620 --- [main] p.j.PactVerificationStateChangeExtension : Invoking state change method 'Course Appium does not exist':TEARDOWN
+2023-10-04 12:42:47.317  INFO 7620 --- [main] p.j.PactVerificationStateChangeExtension : Invoking state change method 'Course Appium exist':SETUP
+2023-10-04 12:42:47.367  WARN 7620 --- [main] a.c.d.p.p.DefaultTestResultAccumulator   : Not all of the 3 were verified. The following were missing:
+2023-10-04 12:42:47.368  WARN 7620 --- [main] a.c.d.p.p.DefaultTestResultAccumulator   :     getting all courses details
+2023-10-04 12:42:47.368  INFO 7620 --- [main] p.j.PactVerificationStateChangeExtension : Invoking state change method 'Course Appium exist':TEARDOWN
+2023-10-04 12:42:47.376  INFO 7620 --- [main] p.j.PactVerificationStateChangeExtension : Invoking state change method 'courses exist':SETUP
+2023-10-04 12:42:47.404  WARN 7620 --- [main] a.c.d.p.p.DefaultTestResultAccumulator   : Skipping publishing of verification results as it has been disabled (pact.verifier.publishResults is not 'true')
+2023-10-04 12:42:47.405  INFO 7620 --- [main] p.j.PactVerificationStateChangeExtension : Invoking state change method 'courses exist':TEARDOWN
+2023-10-04 12:42:47.654  INFO 7620 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-04 12:42:47.656  INFO 7620 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-04 12:42:47.665  INFO 7620 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-10-04 12:51:39.973  INFO 8180 --- [main] c.r.Courses.CoursesApplicationTests      : Starting CoursesApplicationTests using Java 1.8.0_381 on W118HJ5LL3 with PID 8180 (started by Yash_Somani in C:\Users\Yash_Somani\OneDrive - Dell Technologies\Documents\pact testing\Code Projects\Courses)
+2023-10-04 12:51:39.974  INFO 8180 --- [main] c.r.Courses.CoursesApplicationTests      : No active profile set, falling back to default profiles: default
+2023-10-04 12:51:40.778  INFO 8180 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-04 12:51:40.852  INFO 8180 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58 ms. Found 1 JPA repository interfaces.
+2023-10-04 12:51:41.544  INFO 8180 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-04 12:51:41.615  INFO 8180 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.1.Final
+2023-10-04 12:51:41.821  INFO 8180 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-10-04 12:51:42.180  INFO 8180 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-04 12:51:42.184  WARN 8180 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2023-10-04 12:51:42.726  INFO 8180 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-04 12:51:42.742  INFO 8180 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2023-10-04 12:51:43.446  INFO 8180 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-04 12:51:43.476  INFO 8180 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-04 12:51:44.318  WARN 8180 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-04 12:51:44.935  INFO 8180 --- [main] c.r.Courses.CoursesApplicationTests      : Started CoursesApplicationTests in 5.266 seconds (JVM running for 6.664)
+2023-10-04 12:51:45.203  INFO 8180 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.rahulshettyacademy.Courses.PactProviderTest], using SpringBootContextLoader
+2023-10-04 12:51:45.205  INFO 8180 --- [main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.rahulshettyacademy.Courses.PactProviderTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-10-04 12:51:45.206  INFO 8180 --- [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.rahulshettyacademy.Courses.PactProviderTest]: PactProviderTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-10-04 12:51:45.209  INFO 8180 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.rahulshettyacademy.CoursesApplication for test class com.rahulshettyacademy.Courses.PactProviderTest
+2023-10-04 12:51:45.211  INFO 8180 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2023-10-04 12:51:45.212  INFO 8180 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3275a47f, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1b5af65b, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@2e0163cb, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6b289535, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@74619273, org.springframework.test.context.support.DirtiesContextTestExecutionListener@38c55a8a, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1d7f7962, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@32d1d6c5, org.springframework.test.context.event.EventPublishingTestExecutionListener@4a5b38e6, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@58583a2d, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@3e8afc2d, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@2d172c7, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@115ef673, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@8ce3f27, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@614cd187]
+2023-10-04 12:51:46.040  INFO 8180 --- [main] c.r.Courses.PactProviderTest             : Starting PactProviderTest using Java 1.8.0_381 on W118HJ5LL3 with PID 8180 (started by Yash_Somani in C:\Users\Yash_Somani\OneDrive - Dell Technologies\Documents\pact testing\Code Projects\Courses)
+2023-10-04 12:51:46.040  INFO 8180 --- [main] c.r.Courses.PactProviderTest             : No active profile set, falling back to default profiles: default
+2023-10-04 12:51:46.231  INFO 8180 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-04 12:51:46.244  INFO 8180 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 1 JPA repository interfaces.
+2023-10-04 12:51:46.539  INFO 8180 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-10-04 12:51:46.559  INFO 8180 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-04 12:51:46.560  INFO 8180 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2023-10-04 12:51:46.713  INFO 8180 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-04 12:51:46.714  INFO 8180 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 670 ms
+2023-10-04 12:51:46.872  INFO 8180 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-04 12:51:46.878  INFO 8180 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2023-10-04 12:51:46.879  WARN 8180 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2023-10-04 12:51:46.898  INFO 8180 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2023-10-04 12:51:46.899  INFO 8180 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2023-10-04 12:51:46.930  INFO 8180 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-04 12:51:46.931  INFO 8180 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-04 12:51:47.054  WARN 8180 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-04 12:51:47.608  INFO 8180 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 56525 (http) with context path ''
+2023-10-04 12:51:47.612  INFO 8180 --- [main] c.r.Courses.PactProviderTest             : Started PactProviderTest in 1.624 seconds (JVM running for 9.341)
+2023-10-04 12:51:47.651  INFO 8180 --- [main] p.j.PactVerificationStateChangeExtension : Invoking state change method 'Course Appium does not exist':SETUP
+2023-10-04 12:51:47.958  WARN 8180 --- [Thread-3] au.com.dius.pact.core.support.Metrics    : 
+            Please note: we are tracking events anonymously to gather important usage statistics like JVM version
+            and operating system. To disable tracking, set the 'pact_do_not_track' system property or environment
+            variable to 'true'.
+            
+2023-10-04 12:51:48.107  INFO 8180 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-04 12:51:48.107  INFO 8180 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-04 12:51:48.108  INFO 8180 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-10-04 12:51:48.322  WARN 8180 --- [main] a.c.d.p.p.DefaultTestResultAccumulator   : Not all of the 3 were verified. The following were missing:
+2023-10-04 12:51:48.323  WARN 8180 --- [main] a.c.d.p.p.DefaultTestResultAccumulator   :     Get the Appium course details
+2023-10-04 12:51:48.324  WARN 8180 --- [main] a.c.d.p.p.DefaultTestResultAccumulator   :     getting all courses details
+2023-10-04 12:51:48.325  INFO 8180 --- [main] p.j.PactVerificationStateChangeExtension : Invoking state change method 'Course Appium does not exist':TEARDOWN
+2023-10-04 12:51:48.363  INFO 8180 --- [main] p.j.PactVerificationStateChangeExtension : Invoking state change method 'Course Appium exist':SETUP
+2023-10-04 12:51:48.469  WARN 8180 --- [main] a.c.d.p.p.DefaultTestResultAccumulator   : Not all of the 3 were verified. The following were missing:
+2023-10-04 12:51:48.469  WARN 8180 --- [main] a.c.d.p.p.DefaultTestResultAccumulator   :     getting all courses details
+2023-10-04 12:51:48.470  INFO 8180 --- [main] p.j.PactVerificationStateChangeExtension : Invoking state change method 'Course Appium exist':TEARDOWN
+2023-10-04 12:51:48.476  INFO 8180 --- [main] p.j.PactVerificationStateChangeExtension : Invoking state change method 'courses exist':SETUP
+2023-10-04 12:51:48.511  WARN 8180 --- [main] a.c.d.p.p.DefaultTestResultAccumulator   : Skipping publishing of verification results as it has been disabled (pact.verifier.publishResults is not 'true')
+2023-10-04 12:51:48.512  INFO 8180 --- [main] p.j.PactVerificationStateChangeExtension : Invoking state change method 'courses exist':TEARDOWN
+2023-10-04 12:51:48.532  INFO 8180 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-04 12:51:48.536  INFO 8180 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-04 12:51:48.550  INFO 8180 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-10-04 12:51:48.735  INFO 8180 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-04 12:51:48.736  INFO 8180 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2023-10-04 12:51:48.746  INFO 8180 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2023-10-04 13:54:49.459  WARN 20152 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=23m38s22ms171µs200ns).
+2023-10-04 15:14:34.146  WARN 20152 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m43s557ms799µs700ns).
+2023-10-04 17:12:00.905  INFO 10456 --- [main] c.r.Courses.CoursesApplicationTests      : Starting CoursesApplicationTests using Java 1.8.0_381 on W118HJ5LL3 with PID 10456 (started by Yash_Somani in C:\Users\Yash_Somani\OneDrive - Dell Technologies\Documents\pact testing\Code Projects\Courses)
+2023-10-04 17:12:00.906  INFO 10456 --- [main] c.r.Courses.CoursesApplicationTests      : No active profile set, falling back to default profiles: default
+2023-10-04 17:12:01.929  INFO 10456 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-04 17:12:02.021  INFO 10456 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 77 ms. Found 1 JPA repository interfaces.
+2023-10-04 17:12:02.848  INFO 10456 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-04 17:12:02.941  INFO 10456 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.1.Final
+2023-10-04 17:12:03.229  INFO 10456 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-10-04 17:12:03.624  INFO 10456 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-04 17:12:03.632  WARN 10456 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2023-10-04 17:12:04.476  INFO 10456 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-04 17:12:04.500  INFO 10456 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2023-10-04 17:12:05.438  INFO 10456 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-04 17:12:05.449  INFO 10456 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-04 17:12:06.269  WARN 10456 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-04 17:12:07.147  INFO 10456 --- [main] c.r.Courses.CoursesApplicationTests      : Started CoursesApplicationTests in 6.645 seconds (JVM running for 8.5)
+2023-10-04 17:12:07.583  INFO 10456 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.rahulshettyacademy.Courses.PactProviderTest], using SpringBootContextLoader
+2023-10-04 17:12:07.586  INFO 10456 --- [main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.rahulshettyacademy.Courses.PactProviderTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-10-04 17:12:07.587  INFO 10456 --- [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.rahulshettyacademy.Courses.PactProviderTest]: PactProviderTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-10-04 17:12:07.591  INFO 10456 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.rahulshettyacademy.CoursesApplication for test class com.rahulshettyacademy.Courses.PactProviderTest
+2023-10-04 17:12:07.594  INFO 10456 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2023-10-04 17:12:07.597  INFO 10456 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2986427e, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@35d88a54, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@6c1bebca, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@3d4818e8, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@26c6288d, org.springframework.test.context.support.DirtiesContextTestExecutionListener@57bd9c2b, org.springframework.test.context.transaction.TransactionalTestExecutionListener@644b68ad, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1939a394, org.springframework.test.context.event.EventPublishingTestExecutionListener@e2c627e, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@35cbeb54, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@a7ae340, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@5e8bd498, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@335972a5, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@59a2bed1, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@49f2646]
+2023-10-04 17:12:08.635  INFO 10456 --- [main] c.r.Courses.PactProviderTest             : Starting PactProviderTest using Java 1.8.0_381 on W118HJ5LL3 with PID 10456 (started by Yash_Somani in C:\Users\Yash_Somani\OneDrive - Dell Technologies\Documents\pact testing\Code Projects\Courses)
+2023-10-04 17:12:08.635  INFO 10456 --- [main] c.r.Courses.PactProviderTest             : No active profile set, falling back to default profiles: default
+2023-10-04 17:12:08.947  INFO 10456 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-04 17:12:08.973  INFO 10456 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 24 ms. Found 1 JPA repository interfaces.
+2023-10-04 17:12:09.399  INFO 10456 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-10-04 17:12:09.428  INFO 10456 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-04 17:12:09.428  INFO 10456 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2023-10-04 17:12:09.630  INFO 10456 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-04 17:12:09.631  INFO 10456 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 988 ms
+2023-10-04 17:12:09.833  INFO 10456 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-04 17:12:09.839  INFO 10456 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2023-10-04 17:12:09.840  WARN 10456 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2023-10-04 17:12:09.856  INFO 10456 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2023-10-04 17:12:09.859  INFO 10456 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2023-10-04 17:12:09.896  INFO 10456 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-04 17:12:09.897  INFO 10456 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-04 17:12:10.064  WARN 10456 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-04 17:12:10.753  INFO 10456 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 64309 (http) with context path ''
+2023-10-04 17:12:10.757  INFO 10456 --- [main] c.r.Courses.PactProviderTest             : Started PactProviderTest in 2.176 seconds (JVM running for 12.111)
+2023-10-04 17:12:10.786  INFO 10456 --- [main] p.j.PactVerificationStateChangeExtension : Invoking state change method 'Course Appium does not exist':SETUP
+2023-10-04 17:12:11.055  WARN 10456 --- [Thread-3] au.com.dius.pact.core.support.Metrics    : 
+            Please note: we are tracking events anonymously to gather important usage statistics like JVM version
+            and operating system. To disable tracking, set the 'pact_do_not_track' system property or environment
+            variable to 'true'.
+            
+2023-10-04 17:12:11.174  INFO 10456 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-04 17:12:11.174  INFO 10456 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-04 17:12:11.176  INFO 10456 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-10-04 17:12:11.363  WARN 10456 --- [main] a.c.d.p.p.DefaultTestResultAccumulator   : Not all of the 3 were verified. The following were missing:
+2023-10-04 17:12:11.364  WARN 10456 --- [main] a.c.d.p.p.DefaultTestResultAccumulator   :     Get the Appium course details
+2023-10-04 17:12:11.364  WARN 10456 --- [main] a.c.d.p.p.DefaultTestResultAccumulator   :     getting all courses details
+2023-10-04 17:12:11.365  INFO 10456 --- [main] p.j.PactVerificationStateChangeExtension : Invoking state change method 'Course Appium does not exist':TEARDOWN
+2023-10-04 17:12:11.400  INFO 10456 --- [main] p.j.PactVerificationStateChangeExtension : Invoking state change method 'Course Appium exist':SETUP
+2023-10-04 17:12:11.461  WARN 10456 --- [main] a.c.d.p.p.DefaultTestResultAccumulator   : Not all of the 3 were verified. The following were missing:
+2023-10-04 17:12:11.462  WARN 10456 --- [main] a.c.d.p.p.DefaultTestResultAccumulator   :     getting all courses details
+2023-10-04 17:12:11.462  INFO 10456 --- [main] p.j.PactVerificationStateChangeExtension : Invoking state change method 'Course Appium exist':TEARDOWN
+2023-10-04 17:12:11.469  INFO 10456 --- [main] p.j.PactVerificationStateChangeExtension : Invoking state change method 'courses exist':SETUP
+2023-10-04 17:12:11.490  WARN 10456 --- [main] a.c.d.p.p.DefaultTestResultAccumulator   : Skipping publishing of verification results as it has been disabled (pact.verifier.publishResults is not 'true')
+2023-10-04 17:12:11.490  INFO 10456 --- [main] p.j.PactVerificationStateChangeExtension : Invoking state change method 'courses exist':TEARDOWN
+2023-10-04 17:12:11.501  INFO 10456 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-04 17:12:11.504  INFO 10456 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-04 17:12:11.519  INFO 10456 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-10-04 17:12:11.700  INFO 10456 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-04 17:12:11.701  INFO 10456 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2023-10-04 17:12:11.713  INFO 10456 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2023-10-04 17:13:39.287  INFO 13000 --- [main] c.r.Courses.CoursesApplicationTests      : Starting CoursesApplicationTests using Java 1.8.0_381 on W118HJ5LL3 with PID 13000 (started by Yash_Somani in C:\Users\Yash_Somani\OneDrive - Dell Technologies\Documents\pact testing\Code Projects\Courses)
+2023-10-04 17:13:39.311  INFO 13000 --- [main] c.r.Courses.CoursesApplicationTests      : No active profile set, falling back to default profiles: default
+2023-10-04 17:13:40.170  INFO 13000 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-04 17:13:40.253  INFO 13000 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 71 ms. Found 1 JPA repository interfaces.
+2023-10-04 17:13:41.027  INFO 13000 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-04 17:13:41.093  INFO 13000 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.1.Final
+2023-10-04 17:13:41.281  INFO 13000 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-10-04 17:13:41.633  INFO 13000 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-04 17:13:41.640  WARN 13000 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2023-10-04 17:13:42.285  INFO 13000 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-04 17:13:42.306  INFO 13000 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2023-10-04 17:13:43.063  INFO 13000 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-04 17:13:43.075  INFO 13000 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-04 17:13:43.823  WARN 13000 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-04 17:13:44.586  INFO 13000 --- [main] c.r.Courses.CoursesApplicationTests      : Started CoursesApplicationTests in 5.652 seconds (JVM running for 7.28)
+2023-10-04 17:13:44.921  INFO 13000 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.rahulshettyacademy.Courses.PactProviderTest], using SpringBootContextLoader
+2023-10-04 17:13:44.922  INFO 13000 --- [main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.rahulshettyacademy.Courses.PactProviderTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-10-04 17:13:44.923  INFO 13000 --- [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.rahulshettyacademy.Courses.PactProviderTest]: PactProviderTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-10-04 17:13:44.927  INFO 13000 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.rahulshettyacademy.CoursesApplication for test class com.rahulshettyacademy.Courses.PactProviderTest
+2023-10-04 17:13:44.932  INFO 13000 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2023-10-04 17:13:44.932  INFO 13000 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@620572db, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1d5048d1, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@47d9c01, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5358c8fa, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1a02ebe0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@58b3eb1, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6d7e2795, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@78743dd8, org.springframework.test.context.event.EventPublishingTestExecutionListener@752494dd, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@2986427e, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@35d88a54, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@6c1bebca, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@3d4818e8, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@26c6288d, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@57bd9c2b]
+2023-10-04 17:13:45.943  INFO 13000 --- [main] c.r.Courses.PactProviderTest             : Starting PactProviderTest using Java 1.8.0_381 on W118HJ5LL3 with PID 13000 (started by Yash_Somani in C:\Users\Yash_Somani\OneDrive - Dell Technologies\Documents\pact testing\Code Projects\Courses)
+2023-10-04 17:13:45.943  INFO 13000 --- [main] c.r.Courses.PactProviderTest             : No active profile set, falling back to default profiles: default
+2023-10-04 17:13:46.202  INFO 13000 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-04 17:13:46.222  INFO 13000 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18 ms. Found 1 JPA repository interfaces.
+2023-10-04 17:13:46.761  INFO 13000 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-10-04 17:13:46.787  INFO 13000 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-04 17:13:46.788  INFO 13000 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2023-10-04 17:13:47.054  INFO 13000 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-04 17:13:47.055  INFO 13000 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1107 ms
+2023-10-04 17:13:47.315  INFO 13000 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-04 17:13:47.325  INFO 13000 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2023-10-04 17:13:47.327  WARN 13000 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2023-10-04 17:13:47.350  INFO 13000 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2023-10-04 17:13:47.351  INFO 13000 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2023-10-04 17:13:47.396  INFO 13000 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-04 17:13:47.396  INFO 13000 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-04 17:13:47.674  WARN 13000 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-04 17:13:48.466  INFO 13000 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 55858 (http) with context path ''
+2023-10-04 17:13:48.471  INFO 13000 --- [main] c.r.Courses.PactProviderTest             : Started PactProviderTest in 2.572 seconds (JVM running for 11.165)
+2023-10-04 17:13:48.522  INFO 13000 --- [main] p.j.PactVerificationStateChangeExtension : Invoking state change method 'Course Appium does not exist':SETUP
+2023-10-04 17:13:48.892  WARN 13000 --- [Thread-3] au.com.dius.pact.core.support.Metrics    : 
+            Please note: we are tracking events anonymously to gather important usage statistics like JVM version
+            and operating system. To disable tracking, set the 'pact_do_not_track' system property or environment
+            variable to 'true'.
+            
+2023-10-04 17:13:49.045  INFO 13000 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-04 17:13:49.048  INFO 13000 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-04 17:13:49.053  INFO 13000 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2023-10-04 17:13:49.250  WARN 13000 --- [main] a.c.d.p.p.DefaultTestResultAccumulator   : Not all of the 3 were verified. The following were missing:
+2023-10-04 17:13:49.251  WARN 13000 --- [main] a.c.d.p.p.DefaultTestResultAccumulator   :     Get the Appium course details
+2023-10-04 17:13:49.251  WARN 13000 --- [main] a.c.d.p.p.DefaultTestResultAccumulator   :     getting all courses details
+2023-10-04 17:13:49.253  INFO 13000 --- [main] p.j.PactVerificationStateChangeExtension : Invoking state change method 'Course Appium does not exist':TEARDOWN
+2023-10-04 17:13:49.294  INFO 13000 --- [main] p.j.PactVerificationStateChangeExtension : Invoking state change method 'Course Appium exist':SETUP
+2023-10-04 17:13:49.392  WARN 13000 --- [main] a.c.d.p.p.DefaultTestResultAccumulator   : Not all of the 3 were verified. The following were missing:
+2023-10-04 17:13:49.392  WARN 13000 --- [main] a.c.d.p.p.DefaultTestResultAccumulator   :     getting all courses details
+2023-10-04 17:13:49.393  INFO 13000 --- [main] p.j.PactVerificationStateChangeExtension : Invoking state change method 'Course Appium exist':TEARDOWN
+2023-10-04 17:13:49.400  INFO 13000 --- [main] p.j.PactVerificationStateChangeExtension : Invoking state change method 'courses exist':SETUP
+2023-10-04 17:13:49.435  WARN 13000 --- [main] a.c.d.p.p.DefaultTestResultAccumulator   : Skipping publishing of verification results as it has been disabled (pact.verifier.publishResults is not 'true')
+2023-10-04 17:13:49.435  INFO 13000 --- [main] p.j.PactVerificationStateChangeExtension : Invoking state change method 'courses exist':TEARDOWN
+2023-10-04 17:13:49.457  INFO 13000 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-04 17:13:49.460  INFO 13000 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-04 17:13:49.474  INFO 13000 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-10-04 17:13:49.704  INFO 13000 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-04 17:13:49.706  INFO 13000 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2023-10-04 17:13:49.715  INFO 13000 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2023-10-04 22:01:20.844  WARN 20152 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4h4m44s61ms722µs100ns).
+2023-10-04 22:04:18.670  INFO 20152 --- [RMI TCP Connection(510)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-10-04 22:04:18.966  INFO 20152 --- [RMI TCP Connection(510)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-04 22:04:18.998  INFO 20152 --- [RMI TCP Connection(510)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-04 22:04:19.012  INFO 20152 --- [RMI TCP Connection(510)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
